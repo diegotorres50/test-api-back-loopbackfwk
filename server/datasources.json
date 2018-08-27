@@ -1,1 +1,12 @@
-{}
+{
+  "mysqldb": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "nupres_dev_demo01",
+    "password": "123456",
+    "name": "mysqldb",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

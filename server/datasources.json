@@ -1,1 +1,12 @@
-{}
+{
+  "mysqldb_subscriptions": {
+    "host": "localhost",
+    "port": 3306,
+    "url": "",
+    "database": "demo_suscripciones",
+    "password": "123456",
+    "name": "mysqldb_subscriptions",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

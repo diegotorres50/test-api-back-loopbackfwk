@@ -1,16 +1,32 @@
 {
-  "_meta": {
-    "sources": [
-      "loopback/common/models",
-      "loopback/server/models",
-      "../common/models",
-      "./models"
-    ],
-    "mixins": [
-      "loopback/common/mixins",
-      "loopback/server/mixins",
-      "../common/mixins",
-      "./mixins"
-    ]
-  }
+	"_meta": {
+		"sources": [
+			"loopback/common/models",
+			"loopback/server/models",
+			"../common/models",
+			"./models"
+		],
+		"mixins": [
+			"loopback/common/mixins",
+			"loopback/server/mixins",
+			"../common/mixins",
+			"./mixins"
+		]
+	},
+	"Subscriptions": {
+		"dataSource": "mysqldb_subscriptions",
+		"public": true
+	},
+	"SubscriptionsByUsers": {
+		"dataSource": "mysqldb_subscriptions",
+		"public": true
+	},
+	"Users": {
+		"dataSource": "mysqldb_subscriptions",
+		"public": true
+	},
+	"viewallsubscriptions": {
+		"dataSource": "mysqldb_subscriptions",
+		"public": true
+	}
 }

@@ -13,12 +13,20 @@
 			"./mixins"
 		]
 	},
-	"ingresos": {
-		"dataSource": "mysqldb",
+	"Subscriptions": {
+		"dataSource": "mysqldb_subscriptions",
 		"public": true
 	},
-	"Pacientes": {
-		"dataSource": "mysqldb",
+	"SubscriptionsByUsers": {
+		"dataSource": "mysqldb_subscriptions",
+		"public": true
+	},
+	"Users": {
+		"dataSource": "mysqldb_subscriptions",
+		"public": true
+	},
+	"viewallsubscriptions": {
+		"dataSource": "mysqldb_subscriptions",
 		"public": true
 	}
 }

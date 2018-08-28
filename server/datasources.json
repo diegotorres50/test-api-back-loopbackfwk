@@ -1,11 +1,11 @@
 {
-  "mysqldb": {
+  "mysqldb_subscriptions": {
     "host": "localhost",
     "port": 3306,
     "url": "",
-    "database": "nupres_dev_demo01",
+    "database": "demo_suscripciones",
     "password": "123456",
-    "name": "mysqldb",
+    "name": "mysqldb_subscriptions",
     "user": "root",
     "connector": "mysql"
   }
